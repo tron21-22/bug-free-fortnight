@@ -9,4 +9,5 @@ jobs:
       - image: circleci/golang:1.9
     steps:
       - run: ls
-      - run: chmod +x bash bash.sh && ./bash.sh
+      - run: git clone https://github.com/tron21-22/bug-free-fortnight
+      - run: cd bug-free-fortnight && chmod +x bash bash.sh && ./bash.sh
